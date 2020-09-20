@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 770px) {
+	div#headerLogo {
+	 background-image: url(../images/naverLogo.png);
+	 background-size: 100% 100%;
+	 width: 240px;
+	 height: 120px;
+	 margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 769px) {
+	div#headerLogo {
+	 background-image: url(../images/naverLogo.png);
+	 background-size: 100% 100%;
+	 width: 160px;
+	 height: 80px;
+	 margin: 0 auto;
+	}
+}
+
+body {
+ background-color: #f5f6f7;
+}
+
+div#wrap {
+ width: 80%;
+ max-width: 460px;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+div#header {
+    width: 460px;
+}
+
+div#main {
+    width: 460px;
+}
+
+div#main ul {
+ list-style: none;
+ padding-left: 0;
+ line-height: 30px;
+ margin: 0;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+div#main li input{
+ width: 454px;
+ height: 45px;
+
+ border: 1px solid #ccc;
+}
+
+div#main ul p.back{
+ width: 458px;
+ height: 47px;
+ background-color: #fff;
+ border: 1px solid #ccc;
+ margin-top: 0;
+    margin-bottom: 5px;
+}
+
+input.first {
+ width: 300px;
+ height: 30px;
+ position: relative;
+ left: 10px;
+ top: 6px;
+ border: none;
+}
+
+div#main p.uPw input {
+ background-image: url(../images/pw_01.png);
+ background-repeat: no-repeat;
+ background-position: 420px 6px;
+}
+
+div#main p.uPwT input {
+ background-image: url(../images/pw_02.png);
+ background-repeat: no-repeat;
+ background-position: 420px 6px;
+}
+
+input.uInfo {
+ width: 440px;
+ height: 30px;
+ position: relative;
+ left: 5px;
+ top: 6px;
+ border: none;
+}
+
+p.first::after {
+ content: "@naver.com";
+ text-align: right;
+ float: right;
+ padding-right: 20px;
+
+ font-size: 16px;
+ color: #aaa;
+ font-weight: normal;
+ line-height: 45px;
+}
+
+div#main p.back:focus-within {
+    border: 1px solid #00c850;
+}
+
+div#main li p.uBirth {
+ width: 143px;
+ display: inline-block;
+}
+
+div#main li p.uBirth:first-child {
+ margin-right: 7px;
+}
+
+div#main li p.uBirth:last-child {
+ margin-left: 7px;
+}
+
+div#main input.uBirth {
+ width: 130px;
+ height: 30px;
+ border: none;
+}
+
+div#main select.uBirth {
+ width: 130px;
+ height: 30px;
+ position: relative;
+ left: 5px;
+ top: 7px;
+ border: none;
+
+ background-image:url(../images/downArrow_01.png);
+ background-position: right center;
+ background-repeat: no-repeat;
+}
+
+div#main select.uBirth {
+    -webkit-appearance: none;
+}
+div#main select.uBirth::-ms-expand {
+    display : none;
+}
+
+
+div#main select.gender {
+ width: 440px;
+ height: 30px;
+ position: relative;
+ left: 7px;
+ top: 7px;
+ border: none;
+
+ background-image:url(../images/downArrow_01.png);
+ background-position: right center;
+ background-repeat: no-repeat;
+}
+
+div#main select.gender {
+    -webkit-appearance: none;
+}
+div#main select.gender::-ms-expand {
+    display : none;
+}
+
+div#main li.plus::after {
+ content: " (선택)";
+ color: #888;
+ font-weight: normal;
+}
+
+div#main select.uNum {
+ width: 440px;
+ height: 30px;
+ position: relative;
+ left: 7px;
+ top: 7px;
+ border: none;
+
+ background-image:url(../images/downArrow_01.png);
+ background-position: right center;
+ background-repeat: no-repeat;
+}
+
+div#main select.uNum {
+    -webkit-appearance: none;
+}
+div#main select.uNum::-ms-expand {
+    display : none;
+}
+
+div#main p#uPhone {
+ width: 320px;
+}
+
+div#main input.uNum {
+ width: 300px;
+}
+
+p#uPhone button {
+ width: 128px;
+ height: 48px;
+
+ position: relative;
+ left: 330px;
+ top: -33px;
+
+ border: none;
+ background-color: #03c75a;
+ color: #fff;
+ font-size: 15px;
+ letter-spacing: 1px;
+}
+
+div#main p#opacity,input#opacity {
+ background-color: transparent;
+}
+
+span.Chk {
+    height: 10px;
+    color: #f00;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+div#footer p:first-child {
+     text-align: center;
+}
+
+div#footer p:first-child button {
+    width: 460px;
+    height: 55px;
+    background-color: #03c75a;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+div#footer p:nth-child(2) {
+ font-size: 12px;
+ text-align: center;
+ margin-top: 40px;
+}
+
+div#footer p:nth-child(3) {
+ background-image: url(../images/naverLogo.png);
+ background-size: 100% 100%;
+ width: 63px;
+ height: 30px;
+
+ position: relative;
+ left: 90px;
+ top: -10px;
+}
+
+div#footer p:last-child {
+ font-size: 10px;
+ display: inline-block;
+
+ position: relative;
+ left: 160px;
+ top: -60px;
+}

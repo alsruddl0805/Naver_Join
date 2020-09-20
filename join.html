@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naver 회원가입</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+
+    <div id="wrap">
+    <form id = "frm">
+
+    <div id="header">
+      <div id="headerLogo"></div>
+    </div>
+
+    <div id="main">
+
+        <ul>
+            <li>아이디</li>
+             <p class= "back first">
+             <input type="text" class= "first uId" id="uId">
+             </p>
+             <span id="uIdChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li>비밀번호</li>
+             <p class= "back">
+             <input type="password" class= "uInfo uPw">
+             </p>
+             <span id="uPwChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li>비밀번호 재확인</li>
+             <p class= "back">
+             <input type="password" class= "uInfo uPwT">
+             </p>
+             <span id="uPwTChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li>이름</li>
+             <p class= "back">
+             <input type="text" class= "uInfo uName">
+             </p>
+             <span id="uNameChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li>생년월일</li>
+            <li>
+             <p class= "back uBirth">
+             <input type="text" class= "uInfo uBirth" id="year" placeholder= " 년(4자)" maxlength="4">
+             </p>
+             <p class= "back uBirth">
+             <select class= "uBirth" id="month"></select>
+             </p>
+             <p class= "back uBirth">
+             <input type="text" class= "uInfo uBirth" id= "day" placeholder= " 일" maxlength="2">
+             </p>
+            </li>
+            <span id="uBirthChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li>성별</li>
+             <p class= "back">
+             <select name="gender" class= "gender">
+              <option value="">성별</option>
+              <option value="male">남자</option>
+              <option value="female">여자</option>
+             </select>
+             </p>
+             <span id="genderChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li class= "plus">본인 확인 이메일</li>
+             <p class= "back" placeholder= "선택입력">
+             <input type="email" class= "uInfo" id="email">
+             </p>
+             <span id="emailChk" class="Chk"></span>
+        </ul>
+
+        <ul>
+            <li>휴대전화</li>
+             <p class= "back">
+             <select name="uNum" class= "uNum">
+              <option value="ko">대한민국 +82</option>
+             </select>
+             </p>
+             <p class= "back" id= "uPhone">
+             <input type="text" class= "uInfo uNum" placeholder= " 전화번호 입력" id ="uPhoneNum">
+             <button type= "button">인증번호 받기</button>
+             </p>
+             <p class= "back" id= "opacity">
+             <input type="text" class= "uInfo" id= "opacity" placeholder= " 인증번호 입력하세요">
+             </p>
+             <span id="uNumChk" class="Chk"></span>
+        </ul>
+
+    </div><!--div#main-->
+
+    <div id= "footer">
+        <p>
+        <button type= "button" id= "submit">가입하기</button>
+        </p>
+
+        <p>
+        이용약관│<b>개인정보처리방침</b>│책임의 한계와 법적고지│회원정보 고객센터
+        </p>
+
+        <p>
+        </p>
+
+        <p>Copyright <b>NAVER Corp.</b> All Rights Reserved.</p>
+    </div>
+
+    </form>
+    </div> <!--div#wrap-->
+
+</body>
+</html>
